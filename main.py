@@ -162,7 +162,7 @@ def getBeijinTime():
             if a:
                push('【小米运动步数修改】', msg_mi)
                push_wx(msg_mi)
-               run(msg_mi)
+               #run(msg_mi)
             else:
                print("此次修改结果不推送")
     else:
